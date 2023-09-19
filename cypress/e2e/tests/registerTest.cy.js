@@ -9,7 +9,8 @@ describe("test automation with cypress", () => {
 
     it("registerflow", () => {
         registerOjb.openURL()
-        registerOjb.enteruserdetails(registerdata.firstname, registerdata.lastname, registerdata.email, registerdata.password)
+        registerOjb.enteruserdetails(registerdata.firstname, registerdata.lastname, registerdata.email, registerdata.phone,
+            registerdata.password, registerdata.con_password, registerdata.policycheck, registerdata.continuebtn)
 
     })
 })

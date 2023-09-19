@@ -16,7 +16,7 @@
     "url": "https://github.com/Faheemuaf/cypress-e2e/issues"
   },
   "homepage": "https://github.com/Faheemuaf/cypress-e2e#readme",
-  "devDependencies": {
+  "dependencies": {
     "cypress": "^13.2.0"
   }
 }

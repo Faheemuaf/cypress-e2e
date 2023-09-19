@@ -4,15 +4,12 @@ const registerOjb = new registerPage()
 import registerdata from '../../fixtures/registerdata.json'
 
 
-describe ("test automation with cypress", ()=>{
+describe("test automation with cypress", () => {
 
 
-    it("registerflow", ()=>{
+    it("registerflow", () => {
         registerOjb.openURL()
-        registerOjb.enteruserdetails(registerdata.firstname)
-        registerOjb.enteruserdetails(registerdata.lastname)
-        registerOjb.enteruserdetails(registerdata.email)
-        registerOjb.enteruserdetails(registerdata.password)
+        registerOjb.enteruserdetails(registerdata.firstname, registerdata.lastname, registerdata.email, registerdata.password)
 
     })
 })

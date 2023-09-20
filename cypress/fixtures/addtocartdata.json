@@ -1,0 +1,18 @@
+{
+"login": {
+    "username":"fahim23212@gmail.com",
+    "password":"fahim093432"
+},
+
+"products": {
+
+    "product_name": "mac"
+
+},
+
+"message": {
+    "successmessage": " Success: You have added"
+}
+
+
+}

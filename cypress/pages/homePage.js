@@ -3,10 +3,10 @@ export class homePage {
     weblocators = {
 
         search_products: 'input[name="search"]',
-        click_icon: ".btn btn-default btn-lg",
+        click_icon: ".btn.btn-default.btn-lg",
         product: "#search[title='mac']",
         addtocard: "Add to Cart",
-        successmessage: ".alert alert-success alert-dismissible"
+        successmessage: ".alert.alert-success.alert-dismissible"
     }
 
 
@@ -18,12 +18,12 @@ export class homePage {
 
     addToCart() {
         cy.contains(this.weblocators.addtocard).first().click()
-        
+
     }
 
     verifySuccessMessage() {
         return cy.get(this.weblocators.successmessage)
-   
+
 
     }
 

@@ -6,12 +6,12 @@
 
 "products": {
 
-    "product_name": "mac"
+    "product_name": "iMac"
 
 },
 
 "message": {
-    "successmessage": " Success: You have added"
+    "successmessage": " Success: You have added iMac to your shopping cart!"
 }
 
 

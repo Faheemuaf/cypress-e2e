@@ -10,3 +10,9 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
+ # publish the report using ci/cd pipeline
+      - name: Cypress Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test HTML Report
+          path: cypress-e2e\cypress\reports\html

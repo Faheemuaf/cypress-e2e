@@ -12,12 +12,14 @@ jobs:
         uses: cypress-io/github-action@v6
  # publish the report using ci/cd pipeline
       - name: Cypress Test Report
+        if: always()
         uses: actions/upload-artifact@v3
         with:
           name: Test HTML Report
           path: ./cypress/reports/html
 
       - name: Slack Notification
+        if: always()
         uses: rtCamp/action-slack-notify@v2
         env:
          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
